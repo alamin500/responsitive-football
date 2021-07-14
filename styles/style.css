@@ -1,22 +1,26 @@
+
+/* -----------common style or utilities--------- */
 body{
     font-family: 'Poppins', sans-serif;
-   padding: 0;
-   margin: 0;
+    padding: 0;
+    margin: 0;
 }
 /* header */
+
 header{
     background-color: #2D25A0;
     padding: 40px 30px;
-   
 }
+
 header > div{
     max-width: 1160px;
     margin: 0 auto;
 }
 
+ /*----------------- nav-bar--------------- */
 .nav-bar{
     
-        display: flex;
+     display: flex;
      
         color: white;
         display: flex;
@@ -25,14 +29,14 @@ header > div{
     padding: 0;
         margin: 0;
          
-    }
+ }
    
     .nav-bar li{
         margin: 0px 36px 0 0;
-    }
+}
     .menu-icon{
         display: none;
-    }
+}
     @media (max-width:630px){
         .nav-bar li{
            display: none;
@@ -58,14 +62,15 @@ header > div{
        align-items: center;
        justify-content: center;
     }
+  
     @media (max-width:1080px){
         nav a{
             width: 89.98px;
             height: 32.88px;
             font-weight: 500;
-font-size: 11.956px;
-line-height: 18px;
-padding: 3px 8px;
+    font-size: 11.956px;
+    line-height: 18px;
+    padding: 3px 8px;
          }
     }
 nav img{
@@ -75,10 +80,9 @@ nav img{
   
 }
 
-/* copa america 2021 watch live */
+/*------- copa america 2021 watch live---------- */
 .watch-live{
     display: flex;
-   /* height: 677px; */
    background: #2D25A0;
     align-items: center;
     justify-content: center;
@@ -183,7 +187,7 @@ a i{
     margin-left: 8px;
 }
 
-/* players style */
+/* -------------------players style--------------------- */
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -212,7 +216,6 @@ a i{
 
 }
 .player img{
-    /* width: 300px; */
     width: 100%;
     height: 256px;
     
@@ -227,7 +230,7 @@ a i{
     color: #6C6C6C;
     line-height: 26px;
 }
-/* all-highlight */
+/* ------------------all-highlight------------------------ */
 .all-highlight{
     display: flex;
     margin: 150px;
@@ -296,7 +299,7 @@ line-height: 40px;
 height: 248px;
 }
 }
-/* Quarter-finals table */
+/*------------------- Quarter-finals table------------------ */
 .table-heading{
     text-align: center;
     font-size: 45px;
@@ -326,7 +329,7 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
-/* news style */
+/* --------------------news style------------------- */
 .news-h1{
     font-size: 45px;
     text-align: center;
@@ -377,13 +380,14 @@ table {
 .news p{
     margin: 0;
 }
-/* footer */
+/*---------------------footer-------------------- */
 .footer{
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
 }
 .footer > img{
     width: 483.87px;
@@ -412,10 +416,7 @@ footer li{
     margin: 0 7px;
     border-radius: 50%;
 }
-i{
-    
-    /* box-shadow: 0px 0px 40px rgba(175, 53, 53, 0.15); */
-   
-   
-    
+
+a:hover {
+    background-color: rgb(0, 174, 255);
 }
